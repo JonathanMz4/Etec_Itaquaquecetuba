@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Meu site </title>
+        <meta charset = "utf-8">
+        
+    </head>
+    <body>
+        <h3>Trabalhando com Formulários no HTML</h3>
+        </br>
+            <form name="formulario2" method="post">
+                <fieldset>
+                    <legend>Cadastro de Aluno</legend>
+                    
+                    <label for = "bolo">Nome:</label></br>
+                    <input type = "text" id="bolo" name = "nomealuno"></br>
+                    
+                    <label for = "idade">Idade:</label></br>
+                    <input type = "text" id="idade" name = "idade"></br>
+                    
+                    </br>
+                    <label for = "sexo">Gênero:</label></br>
+                    <input type = "radio" id="masc" name="sexo" value="Masculino">
+                    <label for = "masculino">Masculino</label>
+                    <input type = "radio" id="fem" name="sexo" value="Feminino">    
+                    <label for = "feminino">Feminino</label>
+                    </br>                   
+                    </br>
+                    <label for = "Materias">Escolhas as matérias complementares:</label></br>
+                    <input type = "checkbox" id="materia1" name="materia1" value="Português">
+                    <label for = "materia1">Português</label>
+                    <input type = "checkbox" id="materia2" name="materia2" value="Inglês">
+                    <label for = "materia2">Inglês</label>
+                    <input type = "checkbox" id="materia3" name="materia3" value="Espanhol">
+                    <label for = "materia3">Espanhol</label>
+                    <input type = "checkbox" id="materia4" name="materia4" value="Francês">
+                    <label for = "materia4">Francês</label>
+                    </br>                   
+                    </br>
+                    
+                    <label for="uf">Escolha seu estado de origem:</label>
+                    <select id="uf" name="uf">
+                        <option value="são Paulo">SP</option>
+                        <option value="Rio de Janeiro">RJ</option>
+                        <option value="Minas Gerais" selected>MG</option>
+                        <option value="Espirito Santo">ES</option>
+                    </select>
+                    
+                    
+                    
+                    </br>
+                    </br>
+                    
+                    <label for="opcao">Escolha uma das opções da lista:</label>
+                    <input list="carros">
+                    <datalist id="carros">
+                        <option value = "VW-FOX">
+                        <option value = "VW-GOL">
+                        <option value = "VW-UP">
+                        <option value = "VW-SAVEIRO">
+                    </datalist>
+                    
+                    </br>
+                    </br>
+                    
+                    <label for="cor">Selecione sua cor preferida:</label>
+                    <input type="color" id="cor" name="cor">
+                    
+                    </br>
+                    </br>
+                    
+                    <label for="calendario">Data de Nascimento:</label>
+                    <input type="date" id="calendario" name="calendario" min="2000-01-01">
+                    
+                    </br></br>
+                    <label for="data_hora">Entre com a data e hora</label>
+                    <input type="datetime-local" id="data_hora" name="data_hora">
+                    </br></br>
+                    <label for="email">E-mail para contato:</label>
+                    <input type="email" id="email" name="email">
+                    </br></br>
+                    <label for="anexo">Anexe seu curriculum:</label>
+                    <input type="file" id="anexo" name="anexo">
+                    </br></br>
+                    <label for="numeros">Escolha um número:</label>
+                    <input type="number" id="numeros" name="numeros" min="-10" max="15">
+                    </br></br>
+                    <label for="num">Escolha um valor:</label>
+                    <input type="range" id="num" name="num" min="0" max="10">
+                    </br></br>
+                    <label for = "curso"> Curso:</label></br>
+                    <input type = "text" id="curso" name = "curso"></br>
+                    <label for = "periodo">Periodo:</label></br>
+                    <input type = "text" id="periodo" name="periodo"></br>
+                    </br>
+                    </br>
+                    <label for="mensagem">Deixe sua mensagem:</label></br>
+                    <textarea name="msg" rows="20" cols="50"></textarea>
+                    </br></br>
+                    <input type ="submit" value="Enviar">
+                    <input type ="reset" value="Limpar">
+                    <button type="button" onclick="alert('Obrigado por usar nosso sistema!')">Clique aqui!</button>
+                
+                </fieldset>
+            </form>
+    </body>
+</html>

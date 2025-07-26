@@ -1,0 +1,48 @@
+﻿@model WebAppBootstrap.Models.Aluno
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Aluno</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DataDeNascimento)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DataDeNascimento)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeDoAluno)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomeDoAluno)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroDoTelefone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumeroDoTelefone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeDaEscola)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomeDaEscola)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeDoProfessor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomeDoProfessor)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

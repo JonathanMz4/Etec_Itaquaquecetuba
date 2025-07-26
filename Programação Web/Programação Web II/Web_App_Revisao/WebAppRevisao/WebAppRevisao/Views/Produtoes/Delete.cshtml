@@ -1,0 +1,45 @@
+﻿@model WebAppRevisao.Models.Produto
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Deletar</h2>
+
+<h3>Você tem certeza?</h3>
+<div>
+    <h4>Produto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeProduto)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomeProduto)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DescricaoProduto)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DescricaoProduto)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DataDeCompraProduto)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DataDeCompraProduto)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ProdutoAtivo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProdutoAtivo)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Voltar</a>
+    </form>
+</div>

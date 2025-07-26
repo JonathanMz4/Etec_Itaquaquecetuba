@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        <title>Aula de PW1 - Volume</title>
+    </head>
+
+    <body>
+        <!-- Script de volume -->
+        <script type="text/javascript">
+            var raio; // raio
+            var altura; // altura
+            var volume; // volume
+            
+            raio = prompt("Entre com o raio: ","Digite-o aqui");
+            altura = prompt("Entre com a altura: ","Digite-o aqui");
+            // volume = pi * raio² * altura
+            volume = Math.PI * Math.pow(parseFloat(raio),2) * parseFloat(altura);
+            document.write("O volume é: " , volume);
+        </script>
+    </body>
+</html>

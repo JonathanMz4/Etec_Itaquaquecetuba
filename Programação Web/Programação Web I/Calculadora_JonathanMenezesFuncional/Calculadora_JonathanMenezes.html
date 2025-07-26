@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="Calculadora_JonathanMenezes.css">
+    </head>
+
+    <script type="text/javascript" src="Calculadora_JonathanMenezes.js"></script>
+
+    <body>
+        <div class="calculadora">
+            <p id="display"></p>
+            <div class="buttons">
+                <button class="btn btn--All" id="apagar" onclick="apagar()">C</button>
+                <button class="btn btn--clear" onclick="back()"><</button>
+                <button class="numero" onclick="insert('/')">/</button>
+                <button class="numero" onclick="insert('1')">1</button>
+                <button class="numero" onclick="insert('2')">2</button>
+                <button class="numero" onclick="insert('3')">3</button>
+                <button class="numero" onclick="insert('+')">+</button>
+                <button class="numero" onclick="insert('4')">4</button>
+                <button class="numero" onclick="insert('5')">5</button>
+                <button class="numero" onclick="insert('6')">6</button>
+                <button class="numero" onclick="insert('-')">-</button>
+                <button class="numero" onclick="insert('7')">7</button>
+                <button class="numero" onclick="insert('8')">8</button>
+                <button class="numero" onclick="insert('9')">9</button>
+                <button class="numero" onclick="insert('*')">x</button>
+                <button class="numero" onclick="insert('0')">0</button>
+                <button class="numero" onclick="insert('.')">.</button>
+                <button class="acao" id="igual" onclick="igual()">=</button>
+                <button class="numero" onclick="insert('**')">^</button>
+            </div>
+        </div>
+    </body>
+</html>

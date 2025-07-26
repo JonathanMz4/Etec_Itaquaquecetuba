@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario Quitanda</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+
+    <body>
+        <header><h1>Quitanda Cesta Verde</h1><img src="img/logo.jpeg" alt="logo" title="logo" height="100" width="100"></header>
+        <section>
+            <form method="post">
+                <fieldset>
+                    <legend>Pedido</legend>
+                    <table cellspacing="10">
+                        <tr>
+                            <td>
+                                <label for="frutas">Escolha as suas frutas: </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="banana" name="banana" value="banana">
+                                <label for="banana">Banana</label>
+                                <input type="number" id="num1" name="banana" min="0" max="10">
+                                <input type="checkbox" id="maca" name="maça" value="maca">
+                                <label for="banana">Maçã</label>
+                                <input type="number" id="num2" name="maça" min="0" max="10">
+                                <input type="checkbox" id="laranja" name="laranja" value="laranja">
+                                <label for="banana">Laranja</label>
+                                <input type="number" id="num3" name="laranja" min="0" max="10">
+                                <input type="checkbox" id="melancia" name="melancia" value="melancia">
+                                <label for="banana">Melancia</label>
+                                <input type="number" id="num4" name="melancia" min="0" max="5">
+                            </td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <td>
+                                <label for="amostgratis">Amostra Grátis (Apenas uma fruta) </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" id="pitaya" name="amostgratis" value="pitaya">
+                                <label for="pitaya">Pitaya</label>
+                                <input type="radio" id="granadilha" name="amostgratis" value="granadilha">
+                                <label for="granadilha">Granadilha</label>
+                                <input type="radio" id="mangostao" name="amostgratis" value="mangostao">
+                                <label for="mangostao">Mangostão</label>
+                                <input type="radio" id="longan" name="amostgratis" value="longan">
+                                <label for="longan">Longan</label>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Cliente</legend>
+                    <table cellspacing="10">
+                        <tr>
+                            <td>
+                                <label for="nome">Nome: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" id="nome" name="nome">
+                            </td>
+                            <td>
+                                <label for="sobrenome">Sobrenome: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" id="sobrenome" name="sobrenome">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="telefone">Telefone: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" id="telefone" name="telefone" size="2" maxlength="2">
+                                <input type="text" id="telefone2" name="telefone2" size="9" maxlength="9">
+                            </td>
+                            <td>
+                                <label for="telefonefix">Telefone Fixo: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" id="telefonefix" name="telefonefix" size="8" maxlength="8">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="rua">Rua: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="rua">
+                            </td>
+                            <td>
+                                <label for="numero">Numero:</label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="numero" size="4">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="bairro">Bairro: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="bairro">
+                            </td>
+                            <td>
+                                <label for="estado">Estado:</label>
+                            </td>
+                            <td align="left">
+                                <select name="estado">
+                                    <option value="ac">Acre</option>
+                                    <option value="al">Alagoas</option>
+                                    <option value="am">Amazonas</option>
+                                    <option value="ap">Amapá</option>
+                                    <option value="ba">Bahia</option>
+                                    <option value="ce">Ceará</option>
+                                    <option value="df">Distrito Federal</option>
+                                    <option value="es">Espírito Santo</option>
+                                    <option value="go">Goiás</option>
+                                    <option value="ma">Maranhão</option>
+                                    <option value="mt">Mato Grosso</option>
+                                    <option value="ms">Mato Grosso Do Sul</option>
+                                    <option value="mg">Minas Gerais</option>
+                                    <option value="pa">Pará</option>
+                                    <option value="pb">Paraíba</option>
+                                    <option value="pr">Paraná</option>
+                                    <option value="pe">Pernambuco</option>
+                                    <option value="pi">Piauí</option>
+                                    <option value="rj">Rio De Janeiro</option>
+                                    <option value="rn">Rio Grande Do Norte</option>
+                                    <option value="ro">Rondônia</option>
+                                    <option value="rs">Rio Grande Do Sul</option>
+                                    <option value="rr">Roraima</option>
+                                    <option value="sc">Santa Catarina</option>
+                                    <option value="se">Sergipe</option>
+                                    <option value="sp">São Paulo</option>
+                                    <option value="to">Tocantins</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="cidade">Cidade: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="cidade">
+                            </td>
+                            <td>
+                                <label for="cep">CEP: </label>
+                            </td>
+                            <td align="left">
+                                <input type="text" name="cep" size="5" maxlength="5">
+                                <input type="text" name="cep2" size="3" maxlength="3">
+                            </td>
+                        </tr>
+                        <table cellspacing="10">
+                            <tr>
+                                <td>
+                                    <label for="dataent">Data da Entrega: </label>
+                                    <input type="date" id="dataent" name="dataent" min="2023-03-10">
+                                </td>
+                                <td>
+                                    <label for="horaent">Hora da Entrega: </label>
+                                    <input type="time" id="horaent" name="horaent">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p id="demoButton"></p>
+                                    <button type="button" onclick="botao1 ()">Sobre</button>
+                                    <input type="submit" value="Enviar">
+                                    <input type="reset" value="Limpar">
+                                </td>
+                            </tr>
+                        </table>
+                    </table>
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>

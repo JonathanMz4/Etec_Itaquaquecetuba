@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        <title>Aula de PW1 - Valor Real</title>
+    </head>
+
+    <body>
+        <!-- Script de valor real -->
+        <script type="text/javascript">
+            var ht; // Horas trabalhadas
+            var vh; // valor da hora
+            var pd; // percentual de desconto
+            var td; // taxa de desconto
+            var sb; // salario bruto
+            var sl; // salario liquido
+
+            ht = prompt("Digite as horas trabalhadas: ","Digite-as aqui");
+            vh = prompt("Digite o valor da hora: ","Digite-as aqui");
+            pd = prompt("Digite o percentual de desconto: ","Digite-as aqui");
+            sb = parseFloat(ht) * parseFloat(vh);
+            td = (parseFloat(pd/100)) * sb;
+            sl = sb - td;
+
+            document.write("Provento = " , sl);
+        </script>
+    </body>
+</html>
