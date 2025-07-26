@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jonathan Menezes\\source\\repos\\MediaNotasJon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26EBB2CD-9574-4119-9E4C-BFBACA90F8F2}|MediaNotasJon\\MediaNotasJon.csproj|c:\\users\\jonathan menezes\\source\\repos\\medianotasjon\\medianotasjon\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26EBB2CD-9574-4119-9E4C-BFBACA90F8F2}|MediaNotasJon\\MediaNotasJon.csproj|solutionrelative:medianotasjon\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EBB2CD-9574-4119-9E4C-BFBACA90F8F2}|MediaNotasJon\\MediaNotasJon.csproj|c:\\users\\jonathan menezes\\source\\repos\\medianotasjon\\medianotasjon\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EBB2CD-9574-4119-9E4C-BFBACA90F8F2}|MediaNotasJon\\MediaNotasJon.csproj|solutionrelative:medianotasjon\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EBB2CD-9574-4119-9E4C-BFBACA90F8F2}|MediaNotasJon\\MediaNotasJon.csproj|c:\\users\\jonathan menezes\\source\\repos\\medianotasjon\\medianotasjon\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26EBB2CD-9574-4119-9E4C-BFBACA90F8F2}|MediaNotasJon\\MediaNotasJon.csproj|solutionrelative:medianotasjon\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Jonathan Menezes\\source\\repos\\MediaNotasJon\\MediaNotasJon\\AppShell.xaml",
+              "RelativeDocumentMoniker": "MediaNotasJon\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Jonathan Menezes\\source\\repos\\MediaNotasJon\\MediaNotasJon\\AppShell.xaml",
+              "RelativeToolTip": "MediaNotasJon\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T04:13:35.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan Menezes\\source\\repos\\MediaNotasJon\\MediaNotasJon\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MediaNotasJon\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Jonathan Menezes\\source\\repos\\MediaNotasJon\\MediaNotasJon\\MainPage.xaml.cs",
+              "RelativeToolTip": "MediaNotasJon\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T04:12:42.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jonathan Menezes\\source\\repos\\MediaNotasJon\\MediaNotasJon\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MediaNotasJon\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Jonathan Menezes\\source\\repos\\MediaNotasJon\\MediaNotasJon\\MainPage.xaml",
+              "RelativeToolTip": "MediaNotasJon\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T04:12:31.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
