@@ -1,1 +1,1 @@
-
+Pasta dedicada aos projetos da matéria de Banco de Dados, com foco no "Banco de Dados I" no desenvolvimento de diagramas MER e DER e no "Banco de Dados II" desenvolvimento de códigos utilizando MYSQL na plataforma Workbench

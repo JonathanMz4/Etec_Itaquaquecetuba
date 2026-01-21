@@ -1,2 +1,4 @@
-AVISO: A pasta "Programação WEB III" é referente ao último ano na Etec e tem poucos projetos, devido ao principal projeto ao longo do ano ser o foco no desenvolvimento do site do Trabalho de Conclusão de Curso (TCC)
+AVISO: A pasta "Programação WEB III" é referente ao terceiro e último ano na Etec, tem poucos projetos, devido ao principal projeto ao longo do ano ser o foco no desenvolvimento do site do Trabalho de Conclusão de Curso (TCC)
+
+Essa pasta é dedicada aos projetos de "Programação Web" desenvolvidos ao longo dos 3 anos de curso, onde, em "Programação Web I" tivemos introdução aos códigos base de HTML e ao desenvolvimento WEB, com bastantes projetos práticos. Em "Programação Web II" tivemos o foco em desenvolvimento mais avançado utilizando MVC, framework Bootstrap e API's no Visual Studio. Em "Programação Web III" tivemos o foco na conexão com banco de dados com os projetos WEB e validação, principalmente utilizando a linguagem de programação PHP e banco de dados MYSQL, além de utilizar ferramentas como USBWebServer para simular servidor local e XAMPP.
 

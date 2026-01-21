@@ -1,1 +1,1 @@
-
+Essa pasta é dedicada aos projetos da matéria de "Técnicas de Programação e Algoritmos" apresentado no primeiro ano na Etec. Aqui começamos com a teoria aprendendo a desenvolver Fluxogramas e Pseudocódigos para desenvolvimento de nossa lógica de programação e resolução de problemas, com isso partimos para desenvolvimento de códigos em Java utilizando a ferramenta NetBeans, onde desenvolvemos muitos projetos práticos básicos e de nível médio.

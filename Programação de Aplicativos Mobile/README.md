@@ -1,1 +1,1 @@
-
+Essa pasta é dedicada aos projetos feitos na matéria de "Programação de Aplicativos Mobile", onde tivemos contato e desenvolvemos projetos com o desenvolvimento em blocos pelo MIT App Inventor, também aprendemos a utilizar React Native pela ferramenta de simulação Snack.expo e aprendemos a desenvolver aplicações avançadas no Visual Studio utilizando .NET MAUI

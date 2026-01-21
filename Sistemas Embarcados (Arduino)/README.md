@@ -1,1 +1,1 @@
-
+Essa pasta é dedicada a todos os projetos feitos na matéria de "Sistemas Embarcados" que foi apresentada no terceiro e último ano do curso, onde desenvolvemos aplicações práticas utilizando Arduino e sua programação, além de desenvolvermos noção de eletrônica e kit's arduino.

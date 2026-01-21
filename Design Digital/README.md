@@ -1,1 +1,1 @@
-
+Essa pasta é dedicada a matéria de "Design Digital", apresentado no primeiro ano de curso. Aqui aprendemos tudo da teoria incluindo estudo das cores, plataformas, etc. Além de aprendermos a utilizar ferramentas como Gimp, Photoshop e Figma para desenvolver edições de imagem e criação de Mockups de projetos de programação.

@@ -1,1 +1,1 @@
-Essa pasta, dedicada a Programação WEB III do último ano na Etec, tem poucos projetos, devido ao principal projeto ao longo do ano ser o foco no desenvolvimento do site do Trabalho de Conclusão de Curso (TCC)
+Essa pasta, dedicada a Programação WEB III do terceiro e último ano na Etec, tem poucos projetos, devido ao principal projeto ao longo do ano ser o foco no desenvolvimento do site do Trabalho de Conclusão de Curso (TCC)
